@@ -1,0 +1,87 @@
+body {
+            padding-top: 50px;
+        }
+
+.navbar {
+    background: #fff;
+}
+        
+.parallax {
+    height: 130vh;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.img1 {
+    height: 300px;
+    width: 400px;
+    background-color: aquamarine;
+    background-image: url(/assets/img1.jpg);
+    background-size: contain;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+}
+
+.img2 {
+    height: 500px;
+    width: 400px;
+    background-color: aquamarine;
+    background-image: url(/assets/-img2.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+}
+
+.img3 {
+    height: 300px;
+    width: 400px;
+    background-color: aquamarine;
+    background-image: url(/assets/img3.jpg);
+    background-size: contain;
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+}
+
+.headtext {
+    max-width: 400px;
+    background-color: transparent;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    
+    padding: 20px;
+}
+
+.headtext h1 {
+    font-size: 56px;
+}
+
+.headtext p{
+    padding-left: 30px;
+}
+
+
+.slideshow { 
+    position: relative; 
+}
+
+.slideshow > div { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
+
+.slideshow > div img{ 
+    width: 100%;
+}
+
+
+
+.blurb {
+    height: 100vh;
+    padding-top: 60px;
+}
